@@ -12,6 +12,7 @@ import {
 } from 'react-icons/fa';
 import { SEO } from '../components/SEO';
 import { FAQSchema, type FAQItem } from '../components/FAQSchema';
+import { OrganizationSchema } from '../components/OrganizationSchema';
 
 export const Home = () => {
   useEffect(() => {
@@ -53,11 +54,12 @@ export const Home = () => {
   return (
     <>
       <SEO
-        title="강남 최고급 하이퍼블릭 프리미엄 서비스"
-        description="강남 퍼펙트는 차별화된 초이스 시스템과 최상급 인테리어, 검증된 서비스 퀄리티를 자랑하는 강남 대표 하이퍼블릭입니다. 프리미엄 룸 시스템과 투명한 가격 구조로 처음 방문하시는 분들도 편안하게 이용하실 수 있습니다. 2명부터 대규모 모임까지 모든 인원 구성에 최적화된 테이블과 서비스를 제공합니다."
-        keywords="강남 퍼펙트, 강남 하이퍼블릭, 강남 유흥, 퍼펙트 가라오케, 초이스 시스템, 강남 룸싸롱, 강남 퍼블릭"
+        title="강남 퍼펙트 | 강남 최고급 하이퍼블릭 프리미엄 서비스"
+        description="강남 퍼펙트는 차별화된 초이스 시스템과 최상급 인테리어, 검증된 서비스 퀄리티를 자랑하는 강남 대표 하이퍼블릭입니다. 프리미엄 룸 시스템과 투명한 가격 구조로 처음 방문하시는 분들도 편안하게 이용하실 수 있습니다. 2명부터 대규모 모임까지 모든 인원 구성에 최적화된 테이블과 서비스를 제공합니다. 강남역 하이퍼블릭 추천 1위, 합리적 가격의 프리미엄 서비스."
+        keywords="강남 퍼펙트, 강남 하이퍼블릭, 강남역 하이퍼블릭, 강남 유흥, 퍼펙트 가라오케, 초이스 시스템, 강남 룸싸롱, 강남 퍼블릭, 하이퍼블릭 가격, 강남 유흥 추천, 강남역 유흥, 강남 2차, 강남 접대, 강남 모임, 강남역 가라오케"
       />
       <FAQSchema faqs={faqs} />
+      <OrganizationSchema />
 
       {/* Hero Section */}
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden">

@@ -5,6 +5,7 @@ import AOS from 'aos';
 import { FaArrowRight, FaCheckCircle } from 'react-icons/fa';
 import { SEO } from '../components/SEO';
 import { FAQSchema, type FAQItem } from '../components/FAQSchema';
+import { OrganizationSchema } from '../components/OrganizationSchema';
 
 export const System = () => {
   useEffect(() => {
@@ -42,11 +43,12 @@ export const System = () => {
   return (
     <>
       <SEO
-        title="강남 퍼펙트 시스템"
-        description="강남 퍼펙트의 체계적인 이용 시스템을 안내합니다. 예약부터 입장, 초이스, 서비스, 퇴실까지 전 과정을 투명하게 공개합니다. 1차 초이스 후 재선택 가능하며, 인원수보다 많은 초이스도 가능합니다. 로테이션 옵션과 추가 초이스 시스템으로 최상의 만족도를 보장합니다. 처음 방문하시는 분들도 담당 매니저의 안내로 쉽게 이용할 수 있습니다."
-        keywords="강남 퍼펙트 시스템, 초이스 시스템, 하이퍼블릭 이용방법, 퍼펙트 예약, 로테이션 시스템"
+        title="강남 퍼펙트 시스템 | 초이스부터 서비스까지 완벽 가이드"
+        description="강남 퍼펙트의 체계적인 이용 시스템을 안내합니다. 예약부터 입장, 초이스, 서비스, 퇴실까지 전 과정을 투명하게 공개합니다. 1차 초이스 후 재선택 가능하며, 인원수보다 많은 초이스도 가능합니다. 로테이션 옵션과 추가 초이스 시스템으로 최상의 만족도를 보장합니다. 처음 방문하시는 분들도 담당 매니저의 안내로 쉽게 이용할 수 있습니다. 강남 하이퍼블릭 이용 가이드 결정판."
+        keywords="강남 퍼펙트 시스템, 초이스 시스템, 하이퍼블릭 이용방법, 퍼펙트 예약, 로테이션 시스템, 강남 하이퍼블릭 이용법, 초이스 방법, 재선택 가능, 강남역 하이퍼블릭 시스템, 가라오케 이용방법, 하이퍼블릭 예약방법"
       />
       <FAQSchema faqs={faqs} />
+      <OrganizationSchema />
 
       {/* Hero */}
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden">

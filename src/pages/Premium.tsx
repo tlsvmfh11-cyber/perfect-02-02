@@ -5,6 +5,7 @@ import AOS from 'aos';
 import { FaCrown, FaCheckCircle, FaStar, FaArrowRight } from 'react-icons/fa';
 import { SEO } from '../components/SEO';
 import { FAQSchema, type FAQItem } from '../components/FAQSchema';
+import { OrganizationSchema } from '../components/OrganizationSchema';
 
 export const Premium = () => {
   useEffect(() => {
@@ -42,11 +43,12 @@ export const Premium = () => {
   return (
     <>
       <SEO
-        title="강남 퍼펙트 프리미엄"
-        description="강남 퍼펙트의 VIP 프리미엄 서비스를 경험하세요. 초이스 우선권, VIP 전용 룸, 프리미엄 주류, 전담 매니저 배정 등 차별화된 서비스를 제공합니다. 골드, 플래티넘, 다이아몬드 패키지 중 선택 가능하며, 단체 예약 시 추가 할인 혜택이 있습니다. 투명한 가격, 검증된 퀄리티, 완벽한 프라이버시로 최상급 경험을 보장합니다."
-        keywords="강남 퍼펙트 프리미엄, VIP 서비스, 프리미엄 패키지, 강남 하이퍼블릭 VIP, 단체 예약"
+        title="강남 퍼펙트 프리미엄 | VIP 특별 서비스 & 혜택"
+        description="강남 퍼펙트의 VIP 프리미엄 서비스를 경험하세요. 초이스 우선권, VIP 전용 룸, 프리미엄 주류, 전담 매니저 배정 등 차별화된 서비스를 제공합니다. 골드, 플래티넘, 다이아몬드 패키지 중 선택 가능하며, 단체 예약 시 추가 할인 혜택이 있습니다. 투명한 가격, 검증된 퀄리티, 완벽한 프라이버시로 최상급 경험을 보장합니다. 강남 하이퍼블릭 VIP 서비스 최고급."
+        keywords="강남 퍼펙트 프리미엄, VIP 서비스, 프리미엄 패키지, 강남 하이퍼블릭 VIP, 단체 예약, 강남 VIP룸, 프리미엄 하이퍼블릭, 강남역 VIP 서비스, 접대 장소, 고급 유흥, 강남 VIP 패키지, 특별 서비스"
       />
       <FAQSchema faqs={faqs} />
+      <OrganizationSchema />
 
       {/* Hero */}
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden">

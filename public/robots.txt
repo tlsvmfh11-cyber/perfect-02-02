@@ -1,4 +1,19 @@
 User-agent: *
 Allow: /
+Disallow: /admin/
+Disallow: /private/
 
-Sitemap: https://yourdomain.com/sitemap.xml
+Sitemap: https://perfectmingu.com/sitemap.xml
+
+# 크롤링 속도 조절
+Crawl-delay: 1
+
+# 주요 검색엔진
+User-agent: Googlebot
+Allow: /
+
+User-agent: Yeti
+Allow: /
+
+User-agent: Bingbot
+Allow: /

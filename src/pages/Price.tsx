@@ -11,6 +11,7 @@ import {
 } from 'react-icons/fa';
 import { SEO } from '../components/SEO';
 import { FAQSchema, type FAQItem } from '../components/FAQSchema';
+import { OrganizationSchema } from '../components/OrganizationSchema';
 
 export const Price = () => {
   useEffect(() => {
@@ -48,11 +49,12 @@ export const Price = () => {
   return (
     <>
       <SEO
-        title="강남 퍼펙트 가격"
-        description="강남 퍼펙트의 투명한 가격 시스템을 확인하세요. 소형 테이블 30만원대부터 시작하며, 중형 테이블 60만원대, 대형 테이블 100만원대의 합리적인 가격으로 최상급 서비스를 제공합니다. 기본 차지, 주류, 서비스 비용을 명확히 안내하며, 숨겨진 추가 비용 없이 투명하게 운영됩니다. 시간제와 올나잇 옵션 중 선택 가능하고, 카드 결제를 지원합니다."
-        keywords="강남 퍼펙트 가격, 하이퍼블릭 가격, 강남 유흥 가격, 퍼펙트 요금, 테이블 가격, 시간제 가격"
+        title="강남 퍼펙트 가격 | 투명한 요금제 완벽 공개"
+        description="강남 퍼펙트의 투명한 가격 시스템을 확인하세요. 소형 테이블 30만원대부터 시작하며, 중형 테이블 60만원대, 대형 테이블 100만원대의 합리적인 가격으로 최상급 서비스를 제공합니다. 기본 차지, 주류, 서비스 비용을 명확히 안내하며, 숨겨진 추가 비용 없이 투명하게 운영됩니다. 시간제와 올나잇 옵션 중 선택 가능하고, 카드 결제를 지원합니다. 강남 하이퍼블릭 가격비교 1위."
+        keywords="강남 퍼펙트 가격, 하이퍼블릭 가격, 강남 유흥 가격, 퍼펙트 요금, 테이블 가격, 시간제 가격, 강남 하이퍼블릭 비용, 강남역 하이퍼블릭 가격, 가라오케 가격, 강남 2차 가격, 올나잇 가격, 시간제 요금, 강남 유흥 비용"
       />
       <FAQSchema faqs={faqs} />
+      <OrganizationSchema />
 
       {/* Hero */}
       <section className="relative min-h-[50vh] flex items-center justify-center bg-gradient-to-b from-background via-primary to-background">
